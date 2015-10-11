@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="roundendblock.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{5c871c67-4e9c-4a4b-a300-78c5a1c7df95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\sdk\const.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\custom.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\cvardef.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\edict.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\eiface.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\meta_api.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\mutil.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\plinfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\progdefs.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\sdk\Sequence.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\memory.h" />
+    <ClInclude Include="..\src\precompiled.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\h_export.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\memory.cpp" />
+    <ClCompile Include="..\src\meta_api.cpp" />
+    <ClCompile Include="..\src\precompiled.cpp" />
+  </ItemGroup>
+</Project>
